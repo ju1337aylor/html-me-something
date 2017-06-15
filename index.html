@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-        HTML Me Something About Music
-        </title>
+        <title>HTML Me Something About Music</title>  
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
@@ -12,76 +12,122 @@
                     Live Music: 2017
                 </h1>
                 <ul>
-                    <li><a href="#noname">noname</a></li>
-                    <li><a href="#staples">Vince Staples</a></li>
-                    <li><a href="#thao">Thao Nguyen</a></li>
-                    <li><a href="#bviolin">Black Violin</a></li>
-                    <li><a href="#king">Emily King</a></li>
-                    <li><a href="#dodgr">The Last Artful, Dodgr</a></li>
+                    <li><i class="fa fa-music"></i>&nbsp;&nbsp;&nbsp;<a href="#noname">noname</a>&nbsp;&nbsp;&nbsp;<i class="fa fa-music"></i></li>
+                    <li><i class="fa fa-music"></i>&nbsp;&nbsp;&nbsp;<a href="#staples">Vince Staples</a>&nbsp;&nbsp;&nbsp;<i class="fa fa-music"></i></li>
+                    <li><i class="fa fa-music"></i>&nbsp;&nbsp;&nbsp;<a href="#thao">Thao Nguyen</a>&nbsp;&nbsp;&nbsp;<i class="fa fa-music"></i></li>
+                    <li><i class="fa fa-music"></i>&nbsp;&nbsp;&nbsp;<a href="#bviolin">Black Violin</a>&nbsp;&nbsp;&nbsp;<i class="fa fa-music"></i></li>
+                    <li><i class="fa fa-music"></i>&nbsp;&nbsp;&nbsp;<a href="#king">Emily King</a>&nbsp;&nbsp;&nbsp;<i class="fa fa-music"></i></li>
+                    <li><i class="fa fa-music"></i>&nbsp;&nbsp;&nbsp;<a href="#dodgr">The Last Artful, Dodgr</a>&nbsp;&nbsp;&nbsp;<i class="fa fa-music"></i></li>
                 </ul>
             </nav>
         </header>
-    <center><img src="C:\Users\J\lc101\html-me-something\images\concert-banner.jpg" width="1200"></center>
+    <center><img src="C:\Users\J\lc101\html-me-something\images\concert-banner.jpg"></center>
         <article>
             <main>
-                <a name="noname"></a>
-                    <h1>noname</h1>
-                    <h2>February 16</h2>
-                    <p>Venue: Doug Fir Lounge.</p>
-                    <p>[Concert Number] First! </p>
-                    <artist-demo>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/K58JYXhb4YA" frameborder="0" allowfullscreen></iframe>
-                        <caption><br>noname's Tiny Desk Performance [NPR]</caption>
-                    </artist-demo>
-                <a name="staples"></a>
-                    <h1>Vince Staples</h1>
-                    <h2>March 1</h2>
-                    <p>Venue: Roseland Theater.</p>
-                    <p>[Concert Number] Second </p>
-                    <artist-demo>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qo9KTlElc00" frameborder="0" allowfullscreen></iframe>
-                        <caption><br>Vince Staples, "Smile" [The Tonight Show]</caption>
-                    </artist-demo>
-                <a name="thao"></a>
-                    <h1>Thao Nguyen</h1>
-                    <h2>March 14</h2>
-                    <p>Venue: Mississippi Studios.</p>
-                    <p>[Concert Number] Ninth </p>
-                    <artist-demo>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/GsjgjRIRV9Y" frameborder="0" allowfullscreen></iframe>
-                        <caption><br>Thao Nguyen, "Kindess Be Concieved" [The A.V. Club]</caption>
-                    </artist-demo>
-                <a name="bviolin"></a>
-                    <h1>Black Violin</h1>
-                    <h2>April 3</h2>
-                    <p>Venue: Portland'5 Center for the Arts.</p>
-                    <p>[Concert Number] First! </p>
-                    <artist-demo>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WYerKidQGcc" frameborder="0" allowfullscreen></iframe>
-                        <caption><br>Black Violin, "Stereotypes"</caption>
-                    </artist-demo>
-                <a name="king"></a>
-                    <h1>Emily King</h1>
-                    <h2>April 22</h2>
-                    <p>Venue: The Old Church</p>
-                    <p>[Concert Number] Third </p>
-                    <artist-demo>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/n6Wf4wUOC5o" frameborder="0" allowfullscreen></iframe>
-                        <caption><br>Emily King, "Sleepwalker" [Audiotree]</caption>
-                    </artist-demo>
-                <a name="dodgr"></a>
-                    <h1>The Last Artful, Dodgr</h1>
-                    <h2>March 3</h2>
-                    <p>Venue: DISJECTA.</p>
-                    <p>[Concert Number] First! </p>
-                        
-                    <h2>May 20</h2>
-                    <p>Venue: Crystal Ballroom.</p>
-                    <p>[Concert Number] Second </p>
-                    <artist-demo>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pS1-OOGhz0s" frameborder="0" allowfullscreen></iframe>
-                        <caption><br>The Last Artful, Dodgr, "Caverns" [opbmusic]</caption>
-                    </artist-demo>
+                <div class="show_2017">
+                    <a name="noname"></a>
+                        <div class="show_deets">
+                            <h1>noname</h1>
+                            <h2>February 16</h2>
+                            <p>Venue: Doug Fir Lounge.</p>
+                            <p>[Concert Number] First! </p>
+                        </div>
+                        <div class="artist_vid">
+                            <figure>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/K58JYXhb4YA" frameborder="0" allowfullscreen></iframe>
+                                <figcaption>noname's Tiny Desk Performance [NPR]</figcaption>
+                            </figure>
+                        </div>
+                </div>
+                <hr>
+                <div class="show_2017">
+                    <a name="staples"></a>
+                        <div class="show_deets">
+                            <h1>Vince Staples</h1>
+                            <h2>March 1</h2>
+                            <p>Venue: Roseland Theater.</p>
+                            <p>[Concert Number] Second </p>
+                        </div>
+                        <div class="artist_vid">   
+                            <figure>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/qo9KTlElc00" frameborder="0" allowfullscreen></iframe>
+                                <figcaption>Vince Staples, "Smile" [The Tonight Show]</figcaption>
+                            </figure>
+                        </div>
+                </div>
+                <hr>
+                <div class="show_2017">
+                    <a name="thao"></a>
+                        <div class="show_deets">
+                            <h1>Thao Nguyen</h1>
+                            <h2>March 14</h2>
+                            <p>Venue: Mississippi Studios.</p>
+                            <p>[Concert Number] Ninth </p>
+                        </div>
+                        <div class="artist_vid">
+                            <figure>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/GsjgjRIRV9Y" frameborder="0" allowfullscreen></iframe>
+                                <figcaption>Thao Nguyen, "Kindess Be Concieved" [The A.V. Club]</figcaption>
+                            </figure>
+                        </div>
+                </div>
+                <hr>
+                <div class="show_2017">
+                    <a name="bviolin"></a>
+                        <div class="show_deets">
+                            <h1>Black Violin</h1>
+                            <h2>April 3</h2>
+                            <p>Venue: Portland'5 Center for the Arts.</p>
+                            <p>[Concert Number] First! </p>
+                        </div>
+                        <div class="artist_vid">
+                            <figure>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/WYerKidQGcc" frameborder="0" allowfullscreen></iframe>
+                                <figcaption>Black Violin, "Stereotypes"</figcaption>
+                            </figure>
+                        </div>
+                </div>
+                <hr>
+                <div class="show_2017">
+                    <a name="king"></a>
+                        <div class="show_deets">
+                            <h1>Emily King</h1>
+                            <h2>April 22</h2>
+                            <p>Venue: The Old Church</p>
+                            <p>[Concert Number] Third </p>
+                        </div>
+                        <div class="artist_vid">
+                            <figure>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/n6Wf4wUOC5o" frameborder="0" allowfullscreen></iframe>
+                                <figcaption>Emily King, "Sleepwalker" [Audiotree]</figcaption>
+                            </figure>
+                        </div>
+                </div>
+                <hr>
+                <div class="show_2017">
+                    <a name="dodgr"></a>
+                        <div class="show_deets">
+                            <h1>The Last Artful, Dodgr</h1>
+                            <table style="width:100%">
+                                <tr>
+                                    <td><h2>March 3</h2></td>
+                                    <td><p></p></td>
+                                    <td><h2>May 20</h2></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Venue: DISJECTA.</br>[Concert Number] First! </p></td>
+                                    <td><p></p></td>
+                                    <td><p>Venue: Crystal Ballroom.</br>[Concert Number] Second </p></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="artist_vid">
+                            <figure>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/pS1-OOGhz0s" frameborder="0" allowfullscreen></iframe>
+                                <figcaption>The Last Artful, Dodgr, "Caverns" [opbmusic]</figcaption>
+                            </figure>
+                        </div>
+                </div>
             </main>
         </article>
         <footer>

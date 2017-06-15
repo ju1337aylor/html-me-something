@@ -1,0 +1,64 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #000;
+	font-size: 90%;
+    color: #fff;
+    font-family: serif;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+header,
+footer {
+	background-color: #fff;
+	font-size: 1.6em;
+    color: #000;
+}
+
+header {
+	padding: 1.875em 0;
+    text-align: center;
+}
+
+header h1 {
+	text-align: center;
+    text-shadow: 3px 2px red;
+}
+
+body h1 {
+	font-size: 3.0em;
+    text-indent: 50px;
+}
+
+main h2 {
+	padding: 0.625em 0 0.625em 0.625em;
+}
+
+main {
+    padding-bottom: 30%;
+    margin-left: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.show_deets {
+    width: 40%;
+    float:left;
+    padding-bottom: 100px;
+}
+
+.artist_vid {
+    width: 60%;
+    float:right;
+}
+
+.show_2017 {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
